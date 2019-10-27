@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "node build"
-    "start": "node app.js",
+    "build": "node build",
+    "start": "node app.js"
     }
   },
   "dependencies": {
