@@ -1,5 +1,6 @@
 // MONGO CONNECTION STRING FOR COMPASS
 // mongodb+srv://slimpickens:bomb2hell@rte-evesk.gcp.mongodb.net/test
+// deploy it already
 
 const express = require("express");
 const mongoose = require("mongoose");
