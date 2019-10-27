@@ -2,9 +2,9 @@
   "name": "rte-node",
   "version": "1.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "app.js",
   "scripts": {
-    "build": "node",
+    "build": "npm run start",
     "start": "node app.js"
   },
   "dependencies": {
