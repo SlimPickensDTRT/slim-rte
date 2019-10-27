@@ -4,11 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "app.js",
-    "build": {
-      "env": {
-        "DB_CONNECTION": "mongodb+srv://slimpickens:bomb2hell@rte-evesk.gcp.mongodb.net/test?retryWrites=true&w=majority"
-      }
+    
+    "start": "node app.js",
     }
   },
   "dependencies": {
