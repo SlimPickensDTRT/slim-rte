@@ -1,7 +1,7 @@
 {
   "name": "rte-node",
   "version": "1.0.1",
-  "description": "",
+  "description": "I am sick of this shit",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
