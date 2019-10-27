@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "node .",
-    "start": "app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "1.19.0",
