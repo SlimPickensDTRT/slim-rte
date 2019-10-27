@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "npm install",
-    "start": "node app.js"
+    "build": "npm install app.js",
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "1.19.0",
@@ -14,6 +14,9 @@
     "express": "4.17.1",
     "mongodb": "3.3.2",
     "mongoose": "5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
   },
   "keywords": []
 }
