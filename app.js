@@ -1,6 +1,7 @@
 // MONGO CONNECTION STRING FOR COMPASS
 // mongodb+srv://slimpickens:bomb2hell@rte-evesk.gcp.mongodb.net/test
 // deploy it already!!!
+const DB_CONNECTION = "mongodb+srv://slimpickens:bomb2hell@rte-evesk.gcp.mongodb.net/test?retryWrites=true&w=majority"
 
 const express = require("express");
 const mongoose = require("mongoose");
@@ -29,7 +30,7 @@ app.get("/", (req, res) => {
 
 //DB connect
 mongoose.connect(
-  process.env.DB_CONNECTION,
+  DB_CONNECTION,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => console.log("Connected to DB!")
 );
