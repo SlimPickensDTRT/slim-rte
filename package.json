@@ -1,18 +1,21 @@
 {
   "name": "rte-node",
   "version": "1.0.1",
-  "description": "I am sick of this shit",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "description": "Node server for RTE rating page",
+  "main": "src/index.js",
+  "scripts": {},
   "dependencies": {
-    "body-parser": "1.19.0",
-    "cors": "2.8.5",
-    "dotenv": "8.1.0",
-    "express": "4.17.1",
-    "mongodb": "3.3.2",
-    "mongoose": "latest"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.3"
   },
-  "keywords": []
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [],
+  "author": "DK",
+  "license": "ISC"
 }
